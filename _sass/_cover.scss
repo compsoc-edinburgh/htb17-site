@@ -15,19 +15,18 @@
 .cover-wrapper-inner {
     display: table-cell;
     vertical-align: top;
-    vertical-align: middle;
 }
 
 .cover-container {
     margin-right: auto;
     margin-left: auto;
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
-
+    padding-top: 10px;
 
     @media (min-width: 992px) {
         /* Give content a max width */
         width: 900px;
-        
+        padding-top: 10%;
     }
 }
 
@@ -40,17 +39,22 @@
     img {
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 30px;
     }
 
     h2 {
         font-weight: 700;
     }
     
-    h4 > a {
-        color: #ccc;
+    h4 {
+        padding-bottom: 20px;
+
+        > a {
+            color: #ccc;
+        }
     }
     
-    > a {
+    .btn {
         margin-bottom: 5px;
         background-color: rgba(0, 0, 0, 0);
     }
