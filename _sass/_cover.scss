@@ -76,7 +76,12 @@
     
     .btn {
         margin-bottom: 5px;
-        background-color: rgba(0, 0, 0, 0);
     }
 
+}
+
+.btn-cover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: #000;
 }
