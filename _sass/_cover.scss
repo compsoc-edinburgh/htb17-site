@@ -81,11 +81,14 @@
 }
 
 .btn-cover {
-    color: #fff;
     background-color: rgba(0, 0, 0, 0.2);
     border: #000;
     
     &:hover, &:active {
         color: #ccc;
+    }
+    
+    &:visited, & {
+        color: #fff;
     }
 }
