@@ -1,6 +1,6 @@
-# Hack the Burgh 2016 website
+# Hack the Burgh 2017 website
 
-This is the website for [HTB 2016](http://2017.hacktheburgh.com).
+This is the website for [HTB 2017](http://2017.hacktheburgh.com).
 
 ## How to test
 
