@@ -1,94 +1,91 @@
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.cover-wrapper {
-    display: table;
-    width: 100%;
-    height: 100%; /* For at least Firefox */
-    min-height: 100%;
+.cover {
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
+
+  background-image: url(/static/img/htb-splash.opt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
     -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-    background-image: url('../img/htb-splash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+  
+  color: #fff;
 
+  a {
+    color: #ccc;
+    font-weight: bold;
 
-.cover-wrapper-img {
-    display: table-row;
-    vertical-align: top;
-
-    > div {
-        padding-top: 10px;
-        @media (min-width: 992px) {
-            padding-top: 10%;
-        }
+    &:hover {
+      color: #ccc;
+      text-decoration: underline;
     }
-}
+  }
 
-.cover-wrapper-headers {
-    display: table-row;
-    vertical-align: middle;
-}
+  .btn {
+    background-color: rgba(0,0,0,0.5);
 
-.cover-wrapper-buttons {
-    display: table-row;
-    vertical-align: bottom;
-
-    > div {
-        padding-bottom: 10px;
+    &:hover {
+      background-color: rgba(0,0,0,.4);
+      color: #eee;
+      text-decoration: none;
     }
-}
 
-.cover-container {
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    &:focus {
+      background-color: rgba(0,0,0,.2);
+      color: #eee;
+    }
+  }
+
+  > section {
+
+    position: relative;
+    display: flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
     
-
-    @media (min-width: 992px) {
-        /* Give content a max width */
-        width: 900px;
-    }
-
-    padding: 0 20px;
-    // padding-top: 10px;
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
-
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 30px;
-    }
-
-    h2 {
-        font-weight: 700;
-    }
+    -webkit-box-orient: vertical;
     
-    h4 {
-        padding-bottom: 20px;
-
-        > a {
-            color: #ccc;
-        }
-    }
+    flex-direction: column;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
     
-    .btn {
-        margin-bottom: 5px;
+    justify-content: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+
+    align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+
+    box-sizing: border-box;
+
+    min-height: 100vh;
+    padding: 50px 0;
+    
+    font-weight: 700;
+
+    > img {
+      width: 100%; // so it always fills the available space
+      max-width: 270px; // but only until this width
+      margin-bottom: 3em;
     }
 
-}
+    p {
+      font-size: 1.4em;
+    }
+  }
+  
+  > footer {
+    padding: 20px 0px;
 
-.btn-cover {
-    background-color: rgba(0, 0, 0, 0.2);
-    border: #000;
-    
-    &:visited, & {
-        color: #fff;
+    // On larger screens we want to make it sticky
+    @media only screen and (min-height: 700px) {
+      position: absolute;
+      left: 50%;
+      bottom: 0px;
+      -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
     }
-    
-    &:hover, &:active {
-        color: #ccc;
-    }
+
+    font-size: 0.9em;
+  }
 }
