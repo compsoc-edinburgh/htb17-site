@@ -6,7 +6,7 @@ sass:
 navigation:
   - text: Home
     url: \#
-  - text: FAQ
-    url: \#faq
-  - text: History
-    url: \#history
+  - text: Explore 2015
+    url: http://2015.hacktheburgh.com
+  - text: Explore 2016
+    url: http://2016.hacktheburgh.com
