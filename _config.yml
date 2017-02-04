@@ -2,4 +2,11 @@ description: Hack the Burgh, the hackathon from beyond the wall, will be returni
 
 sass:
    sourcemap: true
- 
+
+navigation:
+  - text: Home
+    url: \#
+  - text: FAQ
+    url: \#faq
+  - text: History
+    url: \#history

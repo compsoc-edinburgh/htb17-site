@@ -7,4 +7,11 @@ body {
 }
 
 
-@import "cover"
+@import "cover";
+@import "nav";
+
+// Background pattern from Subtle Patterns
+.sayagata {
+	background-image: url(../img/sayagata-400px.png);
+	background-repeat: repeat;
+}

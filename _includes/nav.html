@@ -1,0 +1,18 @@
+<nav class="transparent"> 
+	<div class="nav-wrapper">
+		<a href="#" data-activates="main-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+
+		<!-- use of brand-logo here is a hack to get center to work -->
+		<ul id="nav-mobile" class="brand-logo center hide-on-med-and-down">
+			{% for item in site.navigation %}
+				<li><a href="{{ item.url }}">{{ item.text }}</a></li>
+			{% endfor %}
+		</ul>
+
+		<ul id="main-nav" class="side-nav">
+			{% for item in site.navigation %}
+				<li><a href="{{ item.url }}">{{ item.text }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</nav>
