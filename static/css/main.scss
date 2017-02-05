@@ -1,6 +1,8 @@
 ---
 ---
 
+$font-family: "Raleway",Helvetica,Arial,sans-serif;
+
 html,
 body {
     height: 100%;
@@ -15,3 +17,7 @@ body {
 @import "nav";
 @import "cover";
 @import "footer";
+
+.main-content h4 {
+	font-family: $font-family;
+}
