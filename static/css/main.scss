@@ -6,12 +6,12 @@ body {
     height: 100%;
 }
 
-
-@import "cover";
-@import "nav";
-
 // Background pattern from Subtle Patterns
 .sayagata {
 	background-image: url(../img/sayagata-400px.png);
 	background-repeat: repeat;
 }
+
+@import "nav";
+@import "cover";
+@import "footer";
