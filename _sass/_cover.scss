@@ -76,7 +76,7 @@
     }
 
     // On larger screens we want to make it sticky
-    @media only screen and (min-height: 700px) {
+    @media only screen and (min-height: 675px) {
       position: absolute;
       left: 50%;
       bottom: 0px;
