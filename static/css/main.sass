@@ -4,30 +4,46 @@
 $font-family: "Raleway",Helvetica,Arial,sans-serif
 
 html, body
-	height: 100%
+    height: 100%
 
 // Background pattern from Subtle Patterns: "sayagata"
 .subtle-sayagata
-	background-image: url(../img/sayagata-400px.png)
-	background-repeat: repeat
+    background-image: url(../img/sayagata-400px.png)
+    background-repeat: repeat
 
 // Background pattern from Subtle Patterns: "subtle grey"
 .subtle-grey
-	background-image: url(../img/grey.png)
-	background-repeat: repeat
+    background-image: url(../img/grey.png)
+    background-repeat: repeat
 
 @import "nav"
 @import "cover"
 @import "footer"
 
 .main-content
-	h4, h5
-		font-family: $font-family
+    h4, h5
+        font-family: $font-family
 
 #faq .material-icons
-	font-size: inherit
+    font-size: inherit
 
 #location
-	iframe
-		width: 100% !important
-		// height: 100% !important
+    iframe
+        width: 100% !important
+        // height: 100% !important
+
+.parallax-container
+    min-height: 280px
+    line-height: 0
+    height: auto
+    .section
+        width: 100%
+
+// This code is borrowed from the example,
+// is this necessary?
+// @media only screen and (max-width: 992px)
+//     .parallax-container .section
+//         position: absolute
+//         top: 40%
+//     #index-banner .section
+//         top: 10%
