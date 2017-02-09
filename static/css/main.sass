@@ -27,13 +27,20 @@ html, body
 #faq .material-icons
     font-size: inherit
 
-#location
+#location-map
     iframe
         width: 100% !important
         // height: 100% !important
         
         // Develop indicator below (no internet)
         // background: rgba(0,255,255,0.1)
+
+        // Needed for scrolling hackery
+        display: block
+        pointer-events: none
+        position: relative
+    iframe.clicked
+        pointer-events: auto
 
 .parallax-container
     min-height: 280px
