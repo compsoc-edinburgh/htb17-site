@@ -46,13 +46,15 @@ $(document).ready(function(){
 	updateNav();
 
 	$('nav a').on('click', function(e) {
-        e.preventDefault();
-        var target = this.hash;
-        $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 350, 'swing', function() {
-            window.location.hash = target;
-        });
+        if ($(this).attr('href').charAt(0) === "#") {
+        	e.preventDefault();
+	        var target = this.hash;
+	        $target = $(target);
+	        $('html, body').stop().animate({
+	            'scrollTop': $target.offset().top
+	        }, 350, 'swing', function() {
+	            window.location.hash = target;
+	        });
+	    }
     });
 })

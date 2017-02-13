@@ -5,11 +5,11 @@ sass:
 
 navigation:
   - text: Home
-    url: \#top
+    url: "#top"
   - text: FAQ
-    url: \#faq
+    url: "#faq"
   - text: Find us
-    url: \#location
+    url: "#location"
   - text: Explore 2015
     url: http://2015.hacktheburgh.com
   - text: Explore 2016
