@@ -44,4 +44,15 @@ $(document).ready(function(){
 	offset = startchange.offset().top - startchange.height() / 4;
 	$(document).scroll(updateNav);
 	updateNav();
+
+	$('nav a').on('click', function(e) {
+        e.preventDefault();
+        var target = this.hash;
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 250, 'swing', function() {
+            window.location.hash = target;
+        });
+    });
 })
