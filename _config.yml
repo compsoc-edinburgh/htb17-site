@@ -5,7 +5,7 @@ sass:
 
 navigation:
   - text: Home
-    url: \#
+    url: \#top
   - text: FAQ
     url: \#faq
   - text: Find us
