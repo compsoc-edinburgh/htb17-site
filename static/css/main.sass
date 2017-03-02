@@ -16,6 +16,11 @@ html, body
     background-image: url(../img/grey.png)
     background-repeat: repeat
 
+// Background pattern from Subtle Patterns: "seigaiha"
+.seigaiha
+    background-image: url(../img/seigaiha.png)
+    background-repeat: repeat
+
 @import "nav"
 @import "cover"
 @import "footer"
@@ -23,11 +28,13 @@ html, body
 .main-content
     h4, h5
         font-family: $font-family
+    .section h4
+        margin-top: 0
 
 #faq-section .material-icons
     font-size: inherit
 
-#location-map
+#location-section
     iframe
         width: 100% !important
         // height: 100% !important
@@ -41,6 +48,11 @@ html, body
         position: relative
     iframe.clicked
         pointer-events: auto
+
+#sponsors-section
+    .row:not(.separator)
+        padding-top: 50px
+
 
 a.anchor
     display: block
