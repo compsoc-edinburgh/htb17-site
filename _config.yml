@@ -10,6 +10,8 @@ navigation:
     url: "#faq"
   - text: Find us
     url: "#location"
+  - text: Sponsors
+    url: "#sponsors"
   - text: Explore 2015
     url: http://2015.hacktheburgh.com
   - text: Explore 2016
