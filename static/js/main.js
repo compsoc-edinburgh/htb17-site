@@ -28,7 +28,7 @@ $(document).ready(function(){
 	$(".button-collapse").sideNav();
 	$('.parallax').parallax();
 
-	$('#location-map')
+	$('#location-section')
 		.mousedown(
 			function(){
 				$(this).find('iframe').addClass('clicked')
