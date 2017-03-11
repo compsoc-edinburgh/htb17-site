@@ -6,6 +6,11 @@ $font-family: "Raleway",Helvetica,Arial,sans-serif
 html, body
     height: 100%
 
+body
+    display: flex
+    min-height: 100vh
+    flex-direction: column
+
 // Background pattern from Subtle Patterns: "sayagata"
 .subtle-sayagata
     background-image: url(../img/sayagata-400px.png)
@@ -26,7 +31,9 @@ html, body
 @import "footer"
 
 .main-content
-    h4, h5
+    flex: 1 0 auto
+
+    h1, h2, h3, h4, h5
         font-family: $font-family
     .section h4
         margin-top: 0
