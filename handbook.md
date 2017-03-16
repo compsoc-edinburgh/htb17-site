@@ -10,7 +10,7 @@ You will be asked to show your Eventbrite ticket. You can either print it off or
 ### Code of conduct
 This event is part of MLH and as a participant you agree to follow the [MLH Code of Conduct](https://static.mlh.io/docs/mlh-code-of-conduct.pdf). Hackathons are meant to be fun and enjoyable for everyone and we hold a zero-tolerance policy against any kind of harassment or abuse. If such an issue arises you will be asked to leave the event.
 
-For any kind of problems during the event, the best way to reach us is Slack. For urgent issues, please contact **Viktorija (07923230852)**, **Kristjan (07513644944)** or any other Hack the Burgh organiser or volunteer.
+For any kind of problems during the event, the best way to reach us is Slack. For urgent event-related please contact **Viktorija (07923230852)**, **Kristjan (07513644944)** or any other Hack the Burgh organiser or volunteer. For critical life or death situations, 999 and 112
 
 ## Getting here
 
@@ -36,7 +36,7 @@ To get from Edinburgh Waverley station or coach station to the venue, you can ei
 
 **Please note!** Exact change is necessary when buying bus tickets from the driver (excluding Airlink).
 
-There is also an app for buying bus or tram tickets with your [iOS device](https://itunes.apple.com/gb/app/lothian-buses-official-app/id570435211?ls=1&mt=8) or [Android device](https://play.google.com/store/apps/details?id=com.lothianbuses.lothianbuses).
+There is also an app for buying bus or tram tickets on your [iOS device](https://itunes.apple.com/gb/app/lothian-buses-official-app/id570435211?ls=1&mt=8) or [Android device](https://play.google.com/store/apps/details?id=com.lothianbuses.lothianbuses).
 
 ### Travel reimbursements
 If you are travelling from outside of Edinburgh, we will reimburse your travel accordingly:
@@ -45,7 +45,7 @@ If you are travelling from outside of Edinburgh, we will reimburse your travel a
 - North England and Midlands – £40
 - Southern England and EU – £50
 
-### If you can’t come
+### If you cannot come
 We kindly ask you to let us know if you cannot make it to the hackathon. This makes it possible for other people to enjoy Hack The Burgh.
 
 ## What to bring?
@@ -63,7 +63,7 @@ To make sure you and your fellow hackers feel great hacking together, it is impo
 - Deodorant
 - A change of clothes
 
-Feminine hygiene products will be provided, however, feel free to bring your own.
+Unfortunately there will be no showers available. Feminine hygiene products will be provided, however, feel free to bring your own.
 
 ## Social media
 
