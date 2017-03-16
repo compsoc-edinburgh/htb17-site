@@ -3,7 +3,7 @@
 ## Welcome to Hack the Burgh!
 
 ### Access to the event
-In order to come to Hack the Burgh, you need to be able to prove your age and student status — meaning you are a student at a school, college or a university or you attendeded one of those and graduated no later than Autumn 2016. Please bring your **student ID** and **a government issued ID** with you. If you are under 18, we have sent you a parental consent form that needs to be filled in by your guardians prior to the event and. You will need a document with your date of birth as well.
+In order to come to Hack the Burgh, you need to be able to prove your age and student status — meaning you are a student at a school, college or a university or you attendeded one of those and graduated no later than Autumn 2016. Please bring your **student ID** and **a government issued ID** with you. If you are under 18, we have sent you a parental consent form that needs to be filled in by your guardians prior to the event. You will need a document with your date of birth as well.
 
 You will be asked to show your Eventbrite ticket. You can either print it off or download a mobile ticket which have now been enabled on their app and website. Upon entry, a wristband will be given to you. Do not lose it, it is a proof that you are a participant.
 
