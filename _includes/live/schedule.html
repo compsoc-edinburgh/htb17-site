@@ -12,7 +12,8 @@
 	                        <p>{{ event.content }}</p>
 	                    </div>
 	                </div>
-	                <div class="timeline-badge white-text {{ event.class }}">
+
+	                <div class="timeline-badge white-text {% cycle 'red', 'purple', 'orange' %}">
 	                	<i class="material-icons">{{ event.icon }}</i>
                 	</div>
 	            </div>
