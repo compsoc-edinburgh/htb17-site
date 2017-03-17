@@ -44,7 +44,7 @@
   time: 0000
   content: "A talk by Qais \"qaisjp\" Patankar"
 - title: PIZZA
-  subtitle: Saturday 22:00
+  subtitle: Saturday 23:00
   icon: person
   time: 0000
   content: Come snack on some delicious pizza to keep you going!
@@ -73,11 +73,11 @@
   icon: person
   time: 0000
   content: Come see us at the volunteer desk and we will arrange your travel reimbursements.
-- title: Lunch sponsored by Bloomberg
+- title: Lunch
   subtitle: Sunday 13:00
   icon: person
   time: 0000
-  content: Hands up for Bloomberg for the amazing additions they brought to the event!
+  content: Hands up for Bloomberg for the lunch and the amazing additions they brought to the event!
 - title: Presentation time
   subtitle: Sunday 14:00
   icon: person
