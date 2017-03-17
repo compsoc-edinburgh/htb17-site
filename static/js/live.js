@@ -56,27 +56,29 @@ function updateDeadline(d, t) {
 function announceText(t) {
     var obj = $("#announce-text");
     obj.fadeOut();
-    setTimeout(() => {
-        obj.text(t);
-        obj.fadeIn();
+    if (t !== "") {
+        setTimeout(() => {
+            obj.text(t);
+            obj.fadeIn();
 
-        if (!("Notification" in window)) {
-            console.log("This browser does not support desktop notification");
-        }
-        else if (Notification.permission === "granted") {
-            // If it's okay let's create a notification
-            var notification = new Notification("Hack the Burgh", {
-                icon: "{{ site.baseurl }}/static/img/logo-htb-print.png",
-                body: t,
-            });
-
-            notification.onclick = function() {
-                window.focus();
-                notification.close();
+            if (!("Notification" in window)) {
+                console.log("This browser does not support desktop notification");
             }
-        }
+            else if (Notification.permission === "granted") {
+                // If it's okay let's create a notification
+                var notification = new Notification("Hack the Burgh", {
+                    icon: "{{ site.baseurl }}/static/img/logo-htb-print.png",
+                    body: t,
+                });
 
-    }, 400)
+                notification.onclick = function() {
+                    window.focus();
+                    notification.close();
+                }
+            }
+
+        }, 400)
+    }
 }
 
 $(document).ready(function(){
