@@ -44,6 +44,7 @@ navigation:
                 $('.tabs').tabs({
                     onShow: function(tab) {
                         window.location.hash = '#' + tab.attr('id');
+                        $("body").scrollTop(0);
                     }
                 });
                 $('.tabs').tabs('select_tab', window.location.hash);
