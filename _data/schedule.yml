@@ -1,0 +1,18 @@
+- title: Registration
+  subtitle: Saturday 10am
+  icon: language
+  time: 0000
+  class: blue
+  content: test
+- title: Tile
+  subtitle: Saturday 6pm
+  icon: work
+  time: 0000
+  class: red
+  content: work
+- title: Tile
+  subtitle: Saturday 4pm
+  icon: person
+  time: 0000
+  class: green
+  content: person
