@@ -14,7 +14,7 @@ function checkMouseMove() {
     }
 }
 
-var deadline = 'March 18 2017 11:00:00 GMT+0000';
+var deadline;
 function getTimeRemaining(){
     var t = Date.parse(deadline) - Date.parse(new Date());
     var seconds = Math.floor( (t/1000) % 60 );
@@ -31,20 +31,24 @@ function getTimeRemaining(){
 function updateClock(clock){
     var t = getTimeRemaining();
 
-    var hours = clock.find('#countdown-hours');
-    var minutes = clock.find('#countdown-minutes');
-    var seconds = clock.find('#countdown-seconds');
-    hours.text(('0' + t.hours).slice(-2));
-    minutes.text(('0' + t.minutes).slice(-2));
-    seconds.text(('0' + t.seconds).slice(-2));
-
-    if (t.total<=0) {
-        clearInterval(timeinterval);
+    if (t.total >= 0) {
+        var hours = clock.find('#countdown-hours');
+        var minutes = clock.find('#countdown-minutes');
+        var seconds = clock.find('#countdown-seconds');
+        hours.text(('0' + t.hours).slice(-2));
+        minutes.text(('0' + t.minutes).slice(-2));
+        seconds.text(('0' + t.seconds).slice(-2));
+    } else {
+        $("#countdown").html("&nbsp;")
+        $("#countdown-name").html("&nbsp;")
     }
 }
 
-function updateDeadline(d) {
+function updateDeadline(d, t) {
     deadline = d;
+    $("#countdown").html('<span id="countdown-hours"></span>:<span id="countdown-minutes"></span>:<span id="countdown-seconds"></span>');
+    $("#countdown-name").text(t)
+    updateClock($("#countdown"))
 }
 
 $(document).ready(function(){
@@ -68,8 +72,7 @@ $(document).ready(function(){
     checkMouseMove();
 
     var clock = $('#countdown');
-    clock.html('<span id="countdown-hours"></span>:<span id="countdown-minutes"></span>:<span id="countdown-seconds"></span>');
-    
+    updateDeadline('March 18 2017 11:00:00 GMT+0000');
     updateClock(clock); // run function once at first to avoid delay
     var timeinterval = setInterval(updateClock,1000, clock)
 });
