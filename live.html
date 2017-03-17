@@ -60,6 +60,24 @@ navigation:
                     maxSpeedY: .4,
                     parallaxMultiplier: 15,
                 });
+
+                var timer;
+                function checkMouseMove() {
+                    if (timer) {
+                        clearTimeout(timer);
+                        timer = 0;
+                    }
+
+                    $('nav').fadeIn();
+
+                    if (window.location.hash == "#stream") {
+                        timer = setTimeout(function() {
+                            $('nav').fadeOut()
+                        }, 3000)
+                    }
+                }
+                $(document).mousemove(checkMouseMove);
+                checkMouseMove();
             });
         </script>
     </body>
