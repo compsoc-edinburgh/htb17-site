@@ -84,7 +84,9 @@ Unfortunately there will be no showers available. Feminine hygiene products will
 
 ## Social media
 
-Make some noise! Make Hack the Burgh Twitter- and Instafamous. There will be a Twitter competition running all weekend round and prizes will be given to the dankest tweets. All of your tweets will be on a live screen, so please remain polite!
+Make some noise! Make Hack the Burgh Twitter - and Instafamous. We also have a Snapchat filter especially for the event, so make sure to spread the word in your stories! 
+
+There will be a Twitter competition running all weekend round and prizes will be given to the funiest tweets. All of your tweets will be on a live screen and public, so please remain polite!
 
 **Social media tags**
 - @hacktheburgh
