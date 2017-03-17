@@ -6,6 +6,8 @@ sass:
 navigation:
   - text: Home
     url: "#top"
+  - text: Live
+    url: "/live"
   - text: FAQ
     url: "#faq"
   - text: Participant Handbook
