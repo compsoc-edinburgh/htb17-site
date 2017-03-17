@@ -47,6 +47,17 @@ navigation:
             })
         })
         </script> -->
+
+        <script>
+            $(document).ready(function(){
+                $('.tabs').tabs({
+                    onShow: function(tab) {
+                        window.location.hash = '#' + tab.attr('id');
+                    }
+                });
+                $('.tabs').tabs('select_tab', window.location.hash);
+            });
+        </script>
     </body>
 
 </html>
