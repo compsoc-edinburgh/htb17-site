@@ -8,6 +8,8 @@ navigation:
     url: "#top"
   - text: FAQ
     url: "#faq"
+  - text: Participant Handbook
+    url: "http://2017.hacktheburgh.com/static/legal/HTB_ParticipantHandbook.pdf"
   - text: Find us
     url: "#location"
   - text: Sponsors
