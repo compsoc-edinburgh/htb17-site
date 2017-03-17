@@ -1,0 +1,95 @@
+- title: Registration
+  subtitle: Saturday 10:00
+  icon: language
+  time: 0000
+  content: Don't forget your student ID, proof of age and your ticket.
+- title: Opening talks
+  subtitle: Saturday 11:00
+  icon: work
+  time: 0000
+  content: A word from organisers, some house rules, sponsor introductions and all hacktastic things.
+- title: Hacking begins
+  subtitle: Saturday 12:00
+  icon: person
+  time: 0000
+  content: Let the fun begin. You may go and talk to our sponsors about their challenges or think of things you can do!
+- title: Lunch
+  subtitle: Saturday 13:00
+  icon: person
+  time: 0000
+  content:
+- title: Talks and workshops
+  subtitle: Saturday 14:00-18:00
+  icon: person
+  time: 0000
+  content: Details on the exact workshop/talk times will be confirmed on the day.
+- title: Dinner
+  subtitle: Saturday 18:00
+  icon: person
+  time: 0000
+  content:
+- title: Git workshop
+  subtitle: Saturday 19:00
+  icon: person
+  time: 0000
+  content:
+- title: MLH mini-event
+  subtitle: Saturday 20:00
+  icon: person
+  time: 0000
+  content:
+- title: Introducing GO
+  subtitle: Saturday 22:00
+  icon: person
+  time: 0000
+  content: "A talk by Qais \"qaisjp\" Patankar"
+- title: PIZZA
+  subtitle: Saturday 22:00
+  icon: person
+  time: 0000
+  content: Come snack on some delicious pizza to keep you going!
+- title: Werewolf!
+  subtitle: Sunday 00:00
+  icon: person
+  time: 0000
+  content:
+- title: Breakfast
+  subtitle: Sunday 09:30
+  icon: person
+  time: 0000
+  content:
+- title: Project submission
+  subtitle: Sunday 11:30-12:00
+  icon: person
+  time: 0000
+  content: Submit your hack on <a href="https://hacktheburgh2017.devpost.com">Devpost</a>!
+- title: Hacking ends
+  subtitle: Sunday 12:00
+  icon: person
+  time: 0000
+  content: Make sure you submit your project on DevPost by this time. Get ready to present your work to the judges. Awesome prizes await!
+- title: Reimbursement desk
+  subtitle: Sunday 11:30-12:00
+  icon: person
+  time: 0000
+  content: Come see us at the volunteer desk and we will arrange your travel reimbursements.
+- title: Lunch sponsored by Bloomberg
+  subtitle: Sunday 13:00
+  icon: person
+  time: 0000
+  content: Hands up for Bloomberg for the amazing additions they brought to the event!
+- title: Presentation time
+  subtitle: Sunday 14:00
+  icon: person
+  time: 0000
+  content: Time to show off what you have done.
+- title: Award ceremony
+  subtitle: Sunday 16:00
+  icon: person
+  time: 0000
+  content: Find out who hacked their way through the weekend and made the coolest hacks.
+- title: Hackathon ends
+  subtitle: Sunday 17:00
+  icon: person
+  time: 0000
+  content: Last good byes and kisses before you leave Hack the Burgh. We will see you next year!
