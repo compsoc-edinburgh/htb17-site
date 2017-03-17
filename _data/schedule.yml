@@ -6,13 +6,13 @@
 
 - title: Opening talks
   subtitle: Saturday 11:00
-  icon: work
+  icon: microphone
   time: 0000
   content: A word from organisers, some house rules, sponsor introductions and all hacktastic things.
 
 - title: Hacking begins
   subtitle: Saturday 12:00
-  icon: person
+  icon: code
   time: 0000
   content: Let the fun begin. You may go and talk to our sponsors about their challenges or think of things you can do!
 
@@ -24,7 +24,7 @@
 
 - title: Talks and workshops
   subtitle: Saturday 14:00-18:00
-  icon: person
+  icon: code
   time: 0000
   content: Details on the exact workshop/talk times will be confirmed on the day.
 
@@ -36,19 +36,19 @@
 
 - title: Git workshop
   subtitle: Saturday 19:00
-  icon: person
+  icon: code
   time: 0000
   content:
 
 - title: MLH mini-event
   subtitle: Saturday 20:00
-  icon: person
+  icon: code
   time: 0000
   content:
 
 - title: Introducing Go
   subtitle: Saturday 22:00
-  icon: person
+  icon: microphone
   time: 0000
   content: "A talk by our very own organiser, Qais \"qaisjp\" Patankar."
 
@@ -60,7 +60,7 @@
 
 - title: Werewolf!
   subtitle: Sunday 00:00
-  icon: person
+  icon: paw
   time: 0000
   content:
 
@@ -72,7 +72,7 @@
 
 - title: Project submission
   subtitle: Sunday 11:30-12:00
-  icon: person
+  icon: paper-plane
   time: 0000
   content: Submit your hack on <a href="https://hacktheburgh2017.devpost.com">Devpost</a>!
 
@@ -96,7 +96,7 @@
 
 - title: Presentation time
   subtitle: Sunday 14:00
-  icon: screen
+  icon: play
   time: 0000
   content: Time to show off what you have done.
 
