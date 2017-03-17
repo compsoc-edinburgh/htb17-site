@@ -31,13 +31,17 @@ navigation:
             </div>
         </nav>
 
-        <main class="main-content padded">
-            {% for item in page.navigation %}
-                <div id="{{ item.id }}" class="col s12">{% include {{ item.url }} %}</div>
-            {% endfor %}
-        </main>
+        <div id="particles">
+            <main class="main-content">
+                {% for item in page.navigation %}
+                    <div id="{{ item.id }}" class="col s12">{% include {{ item.url }} %}</div>
+                {% endfor %}
+            </main>
+        </div>
 
         {% include scripts.html %}
+        
+        <script src="{{ site.baseurl }}/static/js/jquery.particleground.min.js"></script>
 
         <script>
             $(document).ready(function(){
@@ -48,6 +52,14 @@ navigation:
                     }
                 });
                 $('.tabs').tabs('select_tab', window.location.hash);
+
+                particleground(document.getElementById('particles'), {
+                    dotColor: '#5cbdaa',
+                    lineColor: '#5cbdaa',
+                    maxSpeedX: .4,
+                    maxSpeedY: .4,
+                    parallaxMultiplier: 15,
+                });
             });
         </script>
     </body>
