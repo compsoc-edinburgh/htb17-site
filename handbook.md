@@ -11,7 +11,7 @@ You will be asked to show your Eventbrite ticket. You can either print it off or
 This event is part of MLH and as a participant you agree to follow the [MLH Code of Conduct](https://static.mlh.io/docs/mlh-code-of-conduct.pdf). Hackathons are meant to be fun and enjoyable for everyone and we hold a zero-tolerance policy against any kind of harassment or abuse. If such an issue arises you will be asked to leave the event.
 
 ### Contacts
-For any kind of problems during the event, the best way to reach us is Slack. For urgent event-related please contact **Viktorija (+447923230852)**, **Kristjan (+447513644944)** or any other Hack the Burgh organiser or volunteer. For critical life or death situations, 999 and 112.
+For any kind of problems during the event, the best way to reach us is Slack. For urgent event-related please contact **Viktorija (+447923230852)**, **Kristjan (+447513644944)** or any other Hack the Burgh organiser or volunteer. For critical life or death situations, general emergency numbers for police, ambulance and firefighter services are **999** and **112**.
 
 If you want to stay annonymous, you can also report any incidents or complaints to incidents@mlh.io.
 
