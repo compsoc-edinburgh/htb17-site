@@ -53,7 +53,8 @@ function updateDeadline(d, t) {
     updateClock($("#countdown"))
 }
 
-function announceText(t) {
+var notification;
+function announceText(t, noNotif) {
     var obj = $("#announce-text");
     obj.fadeOut();
     if (t !== "") {
@@ -61,24 +62,59 @@ function announceText(t) {
             obj.text(t);
             obj.fadeIn();
 
-            if (!("Notification" in window)) {
-                console.log("This browser does not support desktop notification");
-            }
-            else if (Notification.permission === "granted") {
-                // If it's okay let's create a notification
-                var notification = new Notification("Hack the Burgh", {
-                    icon: "{{ site.baseurl }}/static/img/logo-htb-print.png",
-                    body: t,
-                });
+            if (!noNotif) {
+                if (!("Notification" in window)) {
+                    console.log("This browser does not support desktop notification");
+                }
+                else if (Notification.permission === "granted") {
+                    // If it's okay let's create a notification
+                    if (notification != null) {
+                        notification.close()
+                    }
 
-                notification.onclick = function() {
-                    window.focus();
-                    notification.close();
+                    notification = new Notification("Hack the Burgh", {
+                        icon: "{{ site.baseurl }}/static/img/logo-htb-print.png",
+                        body: t,
+                    });
+
+                    notification.onclick = function() {
+                        window.focus();
+                        notification.close();
+                    }
                 }
             }
 
         }, 400)
     }
+}
+
+window.onbeforeunload = () => {
+    if (notification != null) {
+        notification.close()
+    }
+}
+
+var startWebsocket;
+var first = true;
+function startWebsocket(){
+    var sock = new WebSocket("wss://hacktheburgh.com/stream/ws");
+    
+    sock.onmessage = (event) => {
+        if (event.data === "refresh") {
+            location.reload();
+            return;
+        }
+        
+        announceText(event.data, first);
+
+        if (first) {
+            first = false;
+        }
+    }
+    sock.onclose = function(){
+        //try to reconnect in 5 seconds
+        setTimeout(startWebsocket, 5000);
+    };
 }
 
 $(document).ready(function(){
@@ -110,4 +146,7 @@ $(document).ready(function(){
 
     updateClock(clock); // run function once at first to avoid delay
     var timeinterval = setInterval(updateClock,1000, clock)
+
+    startWebsocket();
+
 });
