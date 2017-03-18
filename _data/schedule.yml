@@ -1,54 +1,54 @@
-- title: Registration
-  subtitle: Saturday 10:00
-  icon: globe
-  time: 1489831200000
-  content: "Don't forget your student ID, proof of age and your ticket."
+#- title: Registration
+#  subtitle: Saturday 10:00
+#  icon: globe
+#  time: 1489831200000
+#  content: "Don't forget your student ID, proof of age and your ticket."
+#
+#- title: Opening ceremony
+#  subtitle: Saturday 11:00
+#  icon: microphone
+#  time: 1489834800000
+#  content: A word from organisers, some house rules, sponsor introductions and all hacktastic things.
+#
+#- title: Hacking begins
+#  subtitle: Saturday 12:30
+#  icon: code
+#  time: 1489838400000
+#  content: Let the fun begin. You may go and talk to our sponsors about their challenges or think of things you can do!
 
-- title: Opening ceremony
-  subtitle: Saturday 11:00
-  icon: microphone
-  time: 1489834800000
-  content: A word from organisers, some house rules, sponsor introductions and all hacktastic things.
-
-- title: Hacking begins
-  subtitle: Saturday 12:00
-  icon: code
-  time: 1489838400000
-  content: Let the fun begin. You may go and talk to our sponsors about their challenges or think of things you can do!
-
-- title: Lunch
-  subtitle: Saturday 13:00
-  icon: cutlery
-  time: 1489842000000
-  content:
+#- title: Lunch
+#  subtitle: Saturday 13:00
+#  icon: cutlery
+#  time: 1489842000000
+#  content:
 
 # ARM Talk
-- title: ARM Workshop
-  subtitle: Saturday 13:30-14:00
-  icon: microphone
-  time: 0
-  content: "Working on the Microbit."
+#- title: ARM Workshop
+#  subtitle: Saturday 13:30-14:00
+#  icon: microphone
+#  time: 0
+#  content: "Working on the Microbit."
 
 # Google Talk
-- title: Machine Learning in the Cloud
-  subtitle: Saturday 14:00-14:30
-  icon: microphone
-  time: 0
-  content: "A talk by Google."
-
+#- title: Machine Learning in the Cloud
+#  subtitle: Saturday 14:00-14:30
+#  icon: microphone
+#  time: 0
+#  content: "A talk by Google."
+#
 # Google talk
-- title: Coding Interview Workshop
-  subtitle: Saturday 14:30-15:00
-  icon: microphone
-  time: 0
-  content: Join Google for a workshop going through a technical coding interview!
+#- title: Coding Interview Workshop
+#  subtitle: Saturday 14:30-15:00
+#  icon: microphone
+#  time: 0
+#  content: Join Google for a workshop going through a technical coding interview!
 
 # Bloomberg Talk
-- title: "How the Software Industry is changing - it pays to be different"
-  subtitle: Saturday 15:00-16:00
-  icon: microphone
-  time: 0
-  content: "Software is not a one solution fits all problems, why should software engineers? Talk with three Bloomberg engineers from very different backgrounds about the shift in the industry culture towards inclusion."
+#- title: "How the Software Industry is changing - it pays to be different"
+#  subtitle: Saturday 15:00-16:00
+#  icon: microphone
+#  time: 0
+#  content: "Software is not a one solution fits all problems, why should software engineers? Talk with three Bloomberg engineers from very different backgrounds about the shift in the industry culture towards inclusion."
 
 # Morgan Stanley Talk
 - title: Introduction to REST microservices
@@ -111,18 +111,18 @@
   icon: paper-plane
   time: 1489921200000
   content: Submit your hack on <a href="https://hacktheburgh2017.devpost.com">Devpost</a>!
+  
+- title: Reimbursement desk
+  subtitle: Sunday 11:30-12:00
+  icon: gbp
+  time: 1489923000000
+  content: Come see us at the volunteer desk and we will arrange your travel reimbursements.
 
 - title: Hacking ends
   subtitle: Sunday 12:30
   icon: hand-paper-o
   time: 1489924800000
   content: Make sure you submit your project on DevPost by this time. Get ready to present your work to the judges. Awesome prizes await!
-
-- title: Reimbursement desk
-  subtitle: Sunday 11:30-12:00
-  icon: gbp
-  time: 1489923000000
-  content: Come see us at the volunteer desk and we will arrange your travel reimbursements.
 
 - title: Lunch
   subtitle: Sunday 13:00
