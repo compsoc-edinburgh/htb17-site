@@ -70,11 +70,11 @@
 #  content:
 
 # MLH event
-- title: Lights out!
-  subtitle: Saturday 19:30
-  icon: code
-  time: 1489863600000
-  content: Do the MLH Code in the dark challenge!
+#- title: Lights out!
+#  subtitle: Saturday 19:30
+#  icon: code
+#  time: 1489863600000
+#  content: Do the MLH Code in the dark challenge!
 #
 #- title: MLH mini-event
 #  subtitle: Saturday 20:00
@@ -89,12 +89,6 @@
   time: 1489863600000
   content: Learn Git! It is an irreplacable tool for group projects.
   
-- title: Introducing Go
-  subtitle: Saturday 22:00
-  icon: microphone
-  time: 1489874400000
-  content: "A talk by our very own organiser, Qais \"qaisjp\" Patankar."
-
 - title: Midnight Pizza
   subtitle: Saturday 23:00
   icon: cutlery
