@@ -38,13 +38,13 @@
 - title: Major League Hacking
   slackID: C4M13EDN3
   slackName: mlh
-  description: "Hack Harrassment: Software solution to reduce online harassment. Join #sponsor-mlh to discuss the challenge."
+  description: "Hack Harrassment: Software solution to reduce online harassment. Join #sponsor-mlh to discuss the challenge. Winners receive power banks."
   
 - title: Amazon
-  description: Best use of Amazon Web Services.
+  description: The best hack using Amazon Web Services wins $30 Amazon credit per person.
 
 # - title: Hardware Lab
 #   description: "Hardware lab (hardware.mlh.io)"
 
 - title: Domain.com
-  description: "Best domain."
+  description: "The best domain wins $30 Domain.com credit."
