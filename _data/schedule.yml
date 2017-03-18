@@ -57,6 +57,12 @@
   time: 0
   content: "Join us in the presentations room."
 
+- title: Code Golf minigame
+  subtitle: Saturday 17:15-1745
+  icon: code
+  time: 0
+  content: Write a simple program to complete the given task in any language you like - the shortest correct code wins!
+
 - title: Dinner
   subtitle: Saturday 18:00
   icon: cutlery
