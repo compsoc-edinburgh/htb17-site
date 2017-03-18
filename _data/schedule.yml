@@ -63,25 +63,25 @@
 #  time: 0
 #  content: Write a simple program to complete the given task in any language you like - the shortest correct code wins!
 
-- title: Dinner
-  subtitle: Saturday 18:00
-  icon: cutlery
-  time: 1489860000000
-  content:
+#- title: Dinner
+#  subtitle: Saturday 18:00
+#  icon: cutlery
+#  time: 1489860000000
+#  content:
 
 # GitHub Talk
-- title: Git workshop
-  subtitle: Saturday 19:00
+- title: Lights out!
+  subtitle: Saturday 19:30
   icon: code
   time: 1489863600000
-  content: Join a GitHub representative and learn more about Git!
-
-- title: MLH mini-event
-  subtitle: Saturday 20:00
-  icon: code
-  time: 1489867200000
-  content:
-
+  content: Do the MLH Code in the dark challenge!
+#
+#- title: MLH mini-event
+#  subtitle: Saturday 20:00
+#  icon: code
+#  time: 1489867200000
+#  content:
+#
 - title: Introducing Go
   subtitle: Saturday 22:00
   icon: microphone
