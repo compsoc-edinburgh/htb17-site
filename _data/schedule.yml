@@ -22,11 +22,40 @@
   time: 1489842000000
   content:
 
-- title: Talks and workshops
-  subtitle: Saturday 14:00-18:00
-  icon: code
-  time: 1489845600000
-  content: Details on the exact workshop/talk times will be confirmed on the day.
+# ARM Talk
+- title: ARM Workshop
+  subtitle: Saturday 13:30-14:00
+  icon: microphone
+  time: 0
+  content: "Working on the Microbit."
+
+# Google Talk
+- title: Machine Learning in the Cloud
+  subtitle: Saturday 14:00-14:30
+  icon: microphone
+  time: 0
+  content: "A talk by Google."
+
+# Google talk
+- title: Coding Interview Workshop
+  subtitle: Saturday 14:30-15:00
+  icon: microphone
+  time: 0
+  content: Join Google for a workshop going through a technical coding interview!
+
+# Bloomberg Talk
+- title: "How the Software Industry is changing - it pays to be different"
+  subtitle: Saturday 15:00-16:00
+  icon: microphone
+  time: 0
+  content: "Software is not a one solution fits all problems, why should software engineers? Talk with three Bloomberg engineers from very different backgrounds about the shift in the industry culture towards inclusion."
+
+# Morgan Stanley Talk
+- title: A talk by Morgan Stanley
+  subtitle: Saturday 16:00-17:00
+  icon: microphone
+  time: 0
+  content: "Join us in the presentations room."
 
 - title: Dinner
   subtitle: Saturday 18:00
@@ -34,11 +63,12 @@
   time: 1489860000000
   content:
 
+# GitHub Talk
 - title: Git workshop
   subtitle: Saturday 19:00
   icon: code
   time: 1489863600000
-  content:
+  content: Join a GitHub representative and learn more about Git!
 
 - title: MLH mini-event
   subtitle: Saturday 20:00
