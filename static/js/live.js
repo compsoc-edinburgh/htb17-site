@@ -96,6 +96,7 @@ window.onbeforeunload = () => {
 
 var startWebsocket;
 var first = true;
+var msg = ""
 function startWebsocket(){
     var sock = new WebSocket("wss://hacktheburgh.com/stream/ws");
     
@@ -104,6 +105,11 @@ function startWebsocket(){
             location.reload();
             return;
         }
+
+        if (msg === event.data) {
+            return;
+        }
+        msg = event.data;
         
         announceText(event.data, first);
 
