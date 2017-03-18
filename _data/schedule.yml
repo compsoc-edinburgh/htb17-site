@@ -51,11 +51,11 @@
   content: "Software is not a one solution fits all problems, why should software engineers? Talk with three Bloomberg engineers from very different backgrounds about the shift in the industry culture towards inclusion."
 
 # Morgan Stanley Talk
-- title: A talk by Morgan Stanley
+- title: Introduction to REST microservices
   subtitle: Saturday 16:00-17:00
   icon: microphone
   time: 0
-  content: "Join us in the presentations room."
+  content: "An introduction to REST microservices using Python and Flask, by Neil O'Connor from Morgan Stanley."
 
 - title: Code Golf minigame
   subtitle: Saturday 17:15-17:45
