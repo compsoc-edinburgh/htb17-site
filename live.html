@@ -1,9 +1,9 @@
 ---
 permalink: /live/
 navigation:
-#    - text: Stream
-#      id: "stream"
-#      url: "live/stream.html"
+    - text: Stream
+      id: "stream"
+      url: "live/stream.html"
     - text: Schedule
       id: "schedule"
       url: "live/schedule.html"
@@ -42,26 +42,7 @@ navigation:
         {% include scripts.html %}
         
         <script src="{{ site.baseurl }}/static/js/jquery.particleground.min.js"></script>
-
-        <script>
-            $(document).ready(function(){
-                $('.tabs').tabs({
-                    onShow: function(tab) {
-                        window.location.hash = '#' + tab.attr('id');
-                        $("body").scrollTop(0);
-                    }
-                });
-                $('.tabs').tabs('select_tab', window.location.hash);
-
-                particleground(document.getElementById('particles'), {
-                    dotColor: '#5cbdaa',
-                    lineColor: '#5cbdaa',
-                    maxSpeedX: .4,
-                    maxSpeedY: .4,
-                    parallaxMultiplier: 15,
-                });
-            });
-        </script>
+        <script src="{{ site.baseurl }}/static/js/live.js"></script>
     </body>
 
 </html>
