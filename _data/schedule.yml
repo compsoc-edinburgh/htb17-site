@@ -69,7 +69,7 @@
 #  time: 1489860000000
 #  content:
 
-# GitHub Talk
+# MLH event
 - title: Lights out!
   subtitle: Saturday 19:30
   icon: code
@@ -82,6 +82,13 @@
 #  time: 1489867200000
 #  content:
 #
+# GitHub Talk
+- title: GitHub workshop
+  subtitle: Saturday 20:00
+  icon: code
+  time: 1489863600000
+  content: Learn some Git yo.
+  
 - title: Introducing Go
   subtitle: Saturday 22:00
   icon: microphone
