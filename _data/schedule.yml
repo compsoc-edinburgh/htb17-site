@@ -83,11 +83,11 @@
 #  content:
 #
 # GitHub Talk
-- title: GitHub workshop
+- title: Git workshop
   subtitle: Saturday 20:00
   icon: code
   time: 1489863600000
-  content: Learn some Git yo.
+  content: Learn Git! It is an irreplacable tool for group projects.
   
 - title: Introducing Go
   subtitle: Saturday 22:00
