@@ -3,13 +3,13 @@
 #  icon: globe
 #  time: 1489831200000
 #  content: "Don't forget your student ID, proof of age and your ticket."
-#
+
 #- title: Opening ceremony
 #  subtitle: Saturday 11:00
 #  icon: microphone
 #  time: 1489834800000
 #  content: A word from organisers, some house rules, sponsor introductions and all hacktastic things.
-#
+
 #- title: Hacking begins
 #  subtitle: Saturday 12:30
 #  icon: code
@@ -35,7 +35,7 @@
 #  icon: microphone
 #  time: 0
 #  content: "A talk by Google."
-#
+
 # Google talk
 #- title: Coding Interview Workshop
 #  subtitle: Saturday 14:30-15:00
@@ -49,14 +49,14 @@
 #  icon: microphone
 #  time: 0
 #  content: "Software is not a one solution fits all problems, why should software engineers? Talk with three Bloomberg engineers from very different backgrounds about the shift in the industry culture towards inclusion."
-#
+
 # Morgan Stanley Talk
 #- title: Introduction to REST microservices
 #  subtitle: Saturday 16:00-17:00
 #  icon: microphone
 #  time: 0
 #  content: "An introduction to REST microservices using Python and Flask, by Neil O'Connor from Morgan Stanley."
-#
+
 #- title: Code Golf minigame
 #  subtitle: Saturday 17:15-17:45
 #  icon: code
@@ -75,31 +75,31 @@
 #  icon: code
 #  time: 1489863600000
 #  content: Do the MLH Code in the dark challenge!
-#
+
 #- title: MLH mini-event
 #  subtitle: Saturday 20:00
 #  icon: code
 #  time: 1489867200000
 #  content:
-#
-# GitHub Talk
-- title: Git workshop
-  subtitle: Saturday 20:00
-  icon: code
-  time: 1489863600000
-  content: Learn Git! It is an irreplacable tool for group projects.
-  
-- title: Midnight Pizza
-  subtitle: Saturday 23:00
-  icon: cutlery
-  time: 1489878000000
-  content: Come snack on some delicious pizza to keep you going!
 
-- title: Werewolf!
-  subtitle: Sunday 00:00
-  icon: paw
-  time: 1489881600000
-  content:
+# GitHub Talk
+#- title: Git workshop
+#  subtitle: Saturday 20:00
+#  icon: code
+#  time: 1489863600000
+#  content: Learn Git! It is an irreplacable tool for group projects.
+  
+#- title: Midnight Pizza
+#  subtitle: Saturday 23:00
+#  icon: cutlery
+#  time: 1489878000000
+#  content: Come snack on some delicious pizza to keep you going!
+
+#- title: Werewolf!
+#  subtitle: Sunday 00:00
+#  icon: paw
+#  time: 1489881600000
+#  content:
 
 - title: Breakfast
   subtitle: Sunday 09:30
