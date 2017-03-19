@@ -101,50 +101,50 @@
 #  time: 1489881600000
 #  content:
 
-- title: Breakfast
-  subtitle: Sunday 09:30
-  icon: cutlery
-  time: 1489915800000
-  content:
-
-- title: Project submission
-  subtitle: Sunday 11:00-12:00
-  icon: paper-plane
-  time: 1489921200000
-  content: Submit your hack on <a href="https://hacktheburgh2017.devpost.com">Devpost</a>!
-  
-- title: Reimbursement desk
-  subtitle: Sunday 11:30-12:00
-  icon: gbp
-  time: 1489923000000
-  content: Come see us at the volunteer desk and we will arrange your travel reimbursements.
-
-- title: Hacking ends
-  subtitle: Sunday 12:30
-  icon: hand-paper-o
-  time: 1489924800000
-  content: Make sure you submit your project on DevPost by this time. Get ready to present your work to the judges. Awesome prizes await!
-
-- title: Lunch
-  subtitle: Sunday 13:00
-  icon: cutlery
-  time: 1489928400000
-  content: Hands up for Bloomberg for the lunch and the amazing additions they brought to the event!
-
-- title: Presentation time
-  subtitle: Sunday 14:00
-  icon: play
-  time: 1489932000000
-  content: Time to show off what you have done.
-
-- title: Award ceremony
-  subtitle: Sunday 16:00
-  icon: trophy
-  time: 1489939200000
-  content: Find out who hacked their way through the weekend and made the coolest hacks.
-
-- title: Hackathon ends
-  subtitle: Sunday 17:00
-  icon: hand-o-right
-  time: 1489942800000
-  content: Last good byes and kisses before you leave Hack the Burgh. We hope to see you next year!
+#- title: Breakfast
+#  subtitle: Sunday 09:30
+#  icon: cutlery
+#  time: 1489915800000
+#  content:
+#
+#- title: Project submission
+#  subtitle: Sunday 11:00-12:00
+#  icon: paper-plane
+#  time: 1489921200000
+#  content: Submit your hack on <a href="https://hacktheburgh2017.devpost.com">Devpost</a>!
+#  
+#- title: Reimbursement desk
+#  subtitle: Sunday 11:30-12:00
+#  icon: gbp
+#  time: 1489923000000
+#  content: Come see us at the volunteer desk and we will arrange your travel reimbursements.
+#
+#- title: Hacking ends
+#  subtitle: Sunday 12:30
+#  icon: hand-paper-o
+#  time: 1489924800000
+#  content: Make sure you submit your project on DevPost by this time. Get ready to present your work to the judges. Awesome prizes await!
+#
+#- title: Lunch
+#  subtitle: Sunday 13:00
+#  icon: cutlery
+#  time: 1489928400000
+#  content: Hands up for Bloomberg for the lunch and the amazing additions they brought to the event!
+#
+#- title: Presentation time
+#  subtitle: Sunday 14:00
+#  icon: play
+#  time: 1489932000000
+#  content: Time to show off what you have done.
+#
+#- title: Award ceremony
+#  subtitle: Sunday 16:00
+#  icon: trophy
+#  time: 1489939200000
+#  content: Find out who hacked their way through the weekend and made the coolest hacks.
+#
+#- title: Hackathon ends
+#  subtitle: Sunday 17:00
+#  icon: hand-o-right
+#  time: 1489942800000
+#  content: Last good byes and kisses before you leave Hack the Burgh. We hope to see you next year!
