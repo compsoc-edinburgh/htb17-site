@@ -1,4 +1,4 @@
-# Hack the Burgh 2017 website
+# Hack the Burgh 2017 Website
 
 This is the website for [HTB 2017](http://2017.hacktheburgh.com).
 
